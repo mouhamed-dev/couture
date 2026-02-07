@@ -185,3 +185,12 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+
+
+const contactForm = document.getElementById('contact-form');
+contactForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+    alert('✅ Super, votre message a été envoyé avec succès !');
+    contactForm.reset();
+});
