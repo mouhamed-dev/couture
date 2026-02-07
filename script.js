@@ -1,10 +1,3 @@
-// Loader - Masquer après chargement
-window.addEventListener('load', () => {
-    setTimeout(() => {
-        document.getElementById('loader').classList.add('hidden');
-    }, 500);
-});
-
 // Header avec transparence au scroll
 const header = document.getElementById('mainHeader');
 window.addEventListener('scroll', () => {
